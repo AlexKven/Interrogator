@@ -1,8 +1,8 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\kvenc_000\documents\github\interrogator\interrogator\interrogator\obj\debug\intermediatexaml\interrogator.exe" HashGuid="413c97ea-069f-f2dc-210b-fa2ab910707e" />
-    <ReferenceAssembly PathName="c:\users\kvenc_000\documents\github\interrogator\interrogator\packages\microsoft.band.1.3.10219-preview\lib\wpa81\microsoft.band.dll" HashGuid="617a962a-2ae1-f21d-ded3-fcb8a30781d6" />
-    <ReferenceAssembly PathName="c:\users\kvenc_000\documents\github\interrogator\interrogator\packages\microsoft.band.1.3.10219-preview\lib\wpa81\microsoft.band.phone.dll" HashGuid="ab986af1-cdd5-9901-e899-fe280951a85e" />
-    <ReferenceAssembly PathName="c:\users\kvenc_000\documents\github\interrogator\interrogator\packages\microsoft.band.1.3.10219-preview\lib\wpa81\microsoft.band.store.dll" HashGuid="17cd85e1-86c6-8286-53ab-4696594079dd" />
+    <ReferenceAssembly PathName="c:\users\kvenc\documents\github\interrogator\interrogator\packages\microsoft.band.1.3.10219-preview\lib\wpa81\microsoft.band.dll" HashGuid="617a962a-2ae1-f21d-ded3-fcb8a30781d6" />
+    <ReferenceAssembly PathName="c:\users\kvenc\documents\github\interrogator\interrogator\packages\microsoft.band.1.3.10219-preview\lib\wpa81\microsoft.band.phone.dll" HashGuid="ab986af1-cdd5-9901-e899-fe280951a85e" />
+    <ReferenceAssembly PathName="c:\users\kvenc\documents\github\interrogator\interrogator\packages\microsoft.band.1.3.10219-preview\lib\wpa81\microsoft.band.store.dll" HashGuid="17cd85e1-86c6-8286-53ab-4696594079dd" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

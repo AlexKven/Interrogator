@@ -152,7 +152,7 @@ namespace Interrogator.Interrogator_XamlTypeInfo
             _typeNameTable[0] = "Interrogator.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "Interrogator.HeartRateReading";
+            _typeNameTable[3] = "System.Nullable`1<Int32>";
             _typeNameTable[4] = "System.ValueType";
             _typeNameTable[5] = "Object";
 
@@ -160,7 +160,7 @@ namespace Interrogator.Interrogator_XamlTypeInfo
             _typeTable[0] = typeof(global::Interrogator.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::Interrogator.HeartRateReading);
+            _typeTable[3] = typeof(global::System.Nullable<global::System.Int32>);
             _typeTable[4] = typeof(global::System.ValueType);
             _typeTable[5] = typeof(global::System.Object);
         }
@@ -225,10 +225,9 @@ namespace Interrogator.Interrogator_XamlTypeInfo
                 xamlType = new global::Interrogator.Interrogator_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  Interrogator.HeartRateReading
+            case 3:   //  System.Nullable`1<Int32>
                 userType = new global::Interrogator.Interrogator_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
-                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
@@ -308,7 +307,7 @@ namespace Interrogator.Interrogator_XamlTypeInfo
         private void set_0_MainPage_Reading(object instance, object Value)
         {
             var that = (global::Interrogator.MainPage)instance;
-            that.Reading = (global::Interrogator.HeartRateReading)Value;
+            that.Reading = (global::System.Nullable<global::System.Int32>)Value;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -320,7 +319,7 @@ namespace Interrogator.Interrogator_XamlTypeInfo
             {
             case "Interrogator.MainPage.Reading":
                 userType = (global::Interrogator.Interrogator_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Interrogator.MainPage");
-                xamlMember = new global::Interrogator.Interrogator_XamlTypeInfo.XamlMember(this, "Reading", "Interrogator.HeartRateReading");
+                xamlMember = new global::Interrogator.Interrogator_XamlTypeInfo.XamlMember(this, "Reading", "System.Nullable`1<Int32>");
                 xamlMember.Getter = get_0_MainPage_Reading;
                 xamlMember.Setter = set_0_MainPage_Reading;
                 break;
